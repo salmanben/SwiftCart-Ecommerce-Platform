@@ -1,0 +1,313 @@
+
+  /** Start Product Detais **/
+  .product-details {
+    position: relative;
+    z-index: 5;
+  }
+
+  .product-details .main-image-container {
+    overflow: hidden;
+  }
+
+  .product-details .main-image-container img {
+
+    transform: scale(1);
+    position: relative;
+    z-index: -1;
+    transform-origin: center;
+    transition: 0.2s;
+  }
+
+
+
+  .product-details .title:hover {
+    color: #FFCF17 !important;
+    transition: 0.2s;
+  }
+
+
+
+
+  .review .fa-star {
+    color: #FFCF17 !important;
+    font-size: 16px !important;
+  }
+
+  .product-details .quantity button {
+    cursor: pointer;
+    width: 35px !important;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .product-details .quantity input {
+    outline: none;
+    border: solid 1px black;
+    width: 150px;
+    margin: 0 10px;
+    padding: 2px 0;
+    text-align: center;
+  }
+
+
+  .product-details .quantity .new-price {
+    position: relative;
+    top: 4px
+  }
+
+
+
+
+  .product-details .fa-heart {
+    color:#FAC251 !important;
+    border: solid 1px black;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .product-details .fa-heart:hover{
+    background-color: #FFCF17;
+    color:white !important;
+    transition:0.1s
+  }
+
+  .product-details .play-video {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+  .product-details .play-video a{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+
+  .product-details .play-video i {
+    transform: scale(1.8);
+    position: relative;
+    right: 1px;
+  }
+
+
+
+
+  .product-details .swiper {
+    width: 100%;
+  }
+
+  .main-image-container
+  {
+    height:300px;
+  }
+  .main-image-container img
+  {
+    height:100%;
+    width: 100%;
+  }
+  .product-details .swiper-slide img {
+    width: 100%;
+    height: 60px;
+    object-fit: cover;
+  }
+
+  .product-details .swiper-button-next {
+    position: absolute;
+    right: 0px !important;
+    left: initial;
+    top: 50%;
+    transform: translateY(-10px);
+    width: 20px !important;
+    height: 60px !important;
+    color: #ffffff !important;
+    background-color: #FAC251;
+    z-index: 10;
+    opacity: 0.8;
+    transition: 0.2s;
+  }
+
+  .product-details .swiper-button-prev {
+    position: absolute;
+    left: 0px !important;
+    right: initial;
+    top: 50%;
+    transform: translateY(-10px);
+    width: 20px !important;
+    height: 60px !important;
+    color: #ffffff !important;
+    background-color: #FAC251;
+    opacity: 0.8;
+    z-index: 10;
+    transition: 0.2s;
+    font-size: 16px !important;
+  }
+
+  .product-details .swiper-button-prev::after {
+    font-size: 18px !important;
+    font-weight: bold;
+  }
+
+  .product-details .swiper-button-next::after {
+    font-size: 18px !important;
+    font-weight: bold;
+  }
+
+  .product-details .swiper-button-prev:hover,
+  .product-details .swiper-button-next:hover {
+    opacity: 1;
+  }
+
+  /** End Product Detais **/
+  /** Start Related Info **/
+  .related-info {
+    position: relative;
+    z-index: 5;
+  }
+
+  .related-info .nav-link{
+    font-size: 16px;
+    color:white
+  }
+  .related-info .nav-link:not(.active){
+    background-color: #FFCF17 !important;
+  }
+  .related-info .nav-link.active {
+    background-color: #1877F2 !important;
+  }
+  .related-info .nav-link:hover{
+    color:black !important
+  }
+  .related-info .fa-arrow-right{
+    position: relative;
+    top:3px
+  }
+
+
+  /** End Related Info **/
+
+  /** Start Review **/
+  #reviews .date{
+    font-size: 13px !important;
+  }
+  #reviews .fa-star{
+    bottom:1px
+  }
+  #reviews  .swiper-reviews > .swiper-button-next {
+    position: absolute;
+    right: 0px !important;
+    left: initial;
+    top: 50%;
+    transform: translateY(-10px);
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    color: #ffffff !important;
+    background-color: #1877F2;
+    z-index: 10;
+    opacity: 0.8;
+    transition: 0.2s;
+  }
+
+  #reviews .swiper-reviews > .swiper-button-prev {
+    position: absolute;
+    left: 0px !important;
+    right: initial;
+    top: 50%;
+    transform: translateY(-10px);
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    color: #ffffff !important;
+    background-color: #1877F2;
+    opacity: 0.8;
+    z-index: 10;
+    transition: 0.2s;
+    font-size: 16px !important;
+  }
+
+  #reviews .swiper-reviews > .swiper-button-prev::after {
+    font-size: 18px !important;
+    font-weight: bold;
+  }
+
+  #reviews  .swiper-reviews > .swiper-button-next::after {
+    font-size: 18px !important;
+    font-weight: bold;
+  }
+
+  #reviews .swiper-reviews > .swiper-button-prev:hover,
+  #reviews .swiper-reviews >  .swiper-button-next:hover {
+    opacity: 1;
+  }
+
+
+  #reviews  .swiper-review-images{
+    max-width: 260px !important;
+
+  }
+  #reviews  .swiper-review-images > .swiper-button-next {
+    position: absolute;
+    right: 0px !important;
+    left: initial;
+    top: 50%;
+    transform: translateY(-17px);
+    width: 20px !important;
+    height: 80px !important;
+    color: #ffffff !important;
+    background-color: black;
+    z-index: 10;
+    opacity: 0.8;
+    transition: 0.2s;
+  }
+
+  #reviews .swiper-review-images > .swiper-button-prev {
+    position: absolute;
+    left: 0px !important;
+    right: initial;
+    top: 50%;
+    transform: translateY(-17px);
+    width: 20px !important;
+    height: 80px !important;
+    color: #ffffff !important;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 10;
+    transition: 0.2s;
+  }
+
+
+  #reviews .swiper-review-images .swiper-slide div{
+    width: 60px;
+    height:60px;
+  }
+
+  #reviews .swiper-review-images > .swiper-button-prev::after {
+    font-size: 18px !important;
+    font-weight: bold;
+  }
+
+  #reviews  .swiper-review-images > .swiper-button-next::after {
+    font-size: 18px !important;
+    font-weight: bold;
+  }
+
+  #reviews .swiper-review-images > .swiper-button-prev:hover,
+  #reviews .swiper-review-images >  .swiper-button-next:hover {
+    opacity: 1;
+  }
+  #reviews .review-rating{
+    position: absolute;
+    right: 5px;
+    top:5px;
+  }
+  #reviews .write-review .fa-star{
+      cursor: pointer;
+  }
+
+  /** End Review **/

@@ -1,0 +1,72 @@
+.product_filter ul{
+    list-style-type: none;
+}
+.product_filter nav{
+    background:  none !important;
+}
+.product_filter ul.pagination .page-link{
+    box-shadow: none !important;
+}
+.product_filter  a:not(.title-menu){
+    font-size: 17px !important;
+    font-weight: 500 !important;
+}
+.product_filter  a.active{
+    color: #FFCF17 !important
+}
+
+
+.product_filter  a:not(.title-menu):not(.page-link):hover{
+    color: #FFCF17 !important;
+    transform: 0.2s;
+}
+.fa-caret-down{
+    transition: 0.2s;
+}
+
+.product_filter  a.title-menu:not(.collapsed) .fa-caret-down
+{
+    transform: rotate(180deg);
+}
+.product_filter input[type='number']{
+    border:solid 1px #FFCF17;
+}
+.product_filter input[type='checkbox']{
+    accent-color: #FFCF17;
+    width: 15px;
+    height: 15px;
+}
+.product_filter label{
+   position: relative;
+   top:5px
+}
+
+.pagination {
+    background: white
+}
+
+.pagination .page-item .page-link {
+    box-shadow: none !important
+}
+.brands{
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.brands::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+.brands::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.brands::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.brands:hover::-webkit-scrollbar{
+    display: block;
+}

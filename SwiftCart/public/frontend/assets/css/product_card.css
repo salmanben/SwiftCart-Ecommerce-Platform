@@ -1,0 +1,143 @@
+
+  .product{
+    border-radius: 5px !important;
+  }
+  .product .a-image{
+    display: block;
+    height: 150px;
+    position: relative;
+    border-radius: 5px 5px 0 0 !important;
+    overflow: hidden;
+
+  }
+
+  .product img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px 5px 0 0 !important;
+    transition: 1s;
+  }
+
+  .product img:first-child{
+    opacity: 1;
+    z-index: 10;
+  }
+
+
+
+  .product .category{
+    font-size: 14px
+  }
+
+  .product .fa-star{
+    color: #FAC251;
+    font-size: 12px;
+  }
+
+  .product .review span{
+    font-size: 14px;
+  }
+
+  .product  button.add-to-cart{
+    background: gold !important;
+    border: solid 1px transparent;
+    font-size: 13px !important;
+    padding:8px 0;
+    font-family: 'Nunito Sans', sans-serif;
+    cursor: pointer;
+  }
+
+  .product .add-to-cart:hover{
+    background-color: #ffea00!important;
+    transition: 0.2s;
+  }
+
+  .product p {
+    margin-bottom: 0 !important;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+  }
+
+  .product  .product-title{
+     font-weight: bold;
+     font-size: 15px;
+     line-height: 1 !important;
+     transition: 0.2s;
+
+   }
+
+
+   .product .product-title:hover{
+     color: #FAC251 !important;
+   }
+
+  .product .price{
+    font-family: sans-serif !important;
+    font-weight: bold !important;
+  }
+
+  .product .price .original-price{
+    font-size: 18px !important;
+  }
+
+
+
+  .product .feature-badge{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    opacity: 0.8;
+    z-index: 15;
+    transition: 0.2s;
+  }
+
+  .product .discount-badge{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    opacity: 0.8;
+    z-index: 15;
+    transition: 0.2s;
+  }
+
+  .product:hover .feature-badge,
+  .product:hover .discount-badge{
+    opacity: 1;
+  }
+
+  .product .options{
+    position: absolute;
+    right: 20px;
+    top: 55px;
+    z-index: 20;
+    width: 25px;
+    opacity: 0;
+    transition: 0.2s;
+  }
+
+  .product .options a{
+    width: 100%;
+    border: solid 1px white;
+    cursor: pointer;
+    transform: 0.2s;
+    background-color: #FAC251;
+  }
+
+  .product .options a i:hover{
+    color: black !important;
+  }
+
+  .product .options a:hover {
+    border: solid 1px black !important;
+  }
+
+  .product:hover .options {
+    opacity: 1;
+  }

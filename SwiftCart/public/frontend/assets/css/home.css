@@ -1,0 +1,145 @@
+/***  Start Slider ***/
+.slider {
+    height: 350px !important;
+  }
+
+  .slider .swiper-slide{
+    height: 330px;
+  }
+  .slider .swiper-slide .swiper-text h3{
+    max-width: 300px ;
+
+  }
+  .slider .swiper-button-next, .slider .swiper-button-prev {
+   width: 20px !important;
+   height: 20px !important;
+   padding-top: 1px;
+   margin-top: 0 !important;
+   top:initial;
+   left: initial;
+   color: #ffffff !important;
+   transition: 0.2s;
+   position: absolute !important;
+   bottom:7px !important;
+   border-radius: 1px;
+ }
+ .slider .swiper-button-prev{
+    right: 80px !important;
+ }
+ .slider .swiper-button-next{
+    right: 40px;
+ }
+
+
+
+ .slider .swiper-button-next::after,
+ .slider .swiper-button-prev::after {
+   font-size: 15px !important;
+ }
+ .slider .swiper-button-next:hover{
+    background-color: #ffea00 !important;
+ }
+ .slider .swiper-button-prev:hover{
+    background-color: #ffea00 !important;
+ }
+
+
+
+ .slider .slider-banner{
+    height: 330px !important;
+ }
+
+ .slider .slider-banner a{
+    position: absolute;
+    bottom:10px;
+    left: 10px;
+ }
+
+
+/***  End Slider ***/
+
+/***  Start Flash Sale and brand swiper ***/
+.flash-sale .banner {
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
+ .counter div {
+   border-radius: 5px;
+   background-color: rgba(0, 0, 0, 0.7);
+   margin: 0 20px;
+ }
+
+ .counter div p {
+   border-bottom: dashed 1px #ddd !important;
+   width: 100px;
+ }
+
+ .counter div span {
+   position: relative;
+   bottom: 4px
+ }
+
+ @media (max-width:768px) {
+   .counter div p {
+     border-bottom: dashed 1px #ddd !important;
+     width: 80px;
+   }
+
+   .counter div {
+     margin: 0 5px;
+   }
+ }
+
+ @media (max-width:380px) {
+   .counter div p {
+     border-bottom: dashed 1px #ddd !important;
+     width: 60px;
+     font-size: 16px !important;
+     padding: 5px 0;
+   }
+
+   .counter div span {
+     font-size: 12px !important;
+   }
+ }
+ .flash-sale .swiper-button-next,  .flash-sale .swiper-button-prev,
+ .brand .swiper-button-next,  .brand .swiper-button-prev{
+   width: 30px !important;
+   height: 30px !important;
+   color: #ffffff !important;
+   background-color: #FAC251;
+   border-radius: 50%;
+   opacity: 0.8;
+   transition: 0.2s;
+ }
+
+
+ .flash-sale  .swiper-button-next::after,
+ .flash-sale  .swiper-button-prev::after,
+ .brand  .swiper-button-next::after,
+ .brand  .swiper-button-prev::after{
+   font-size: 18px !important;
+ }
+
+ .flash-sale .swiper-button-prev:hover,
+ .flash-sale .swiper-button-next:hover,
+ .brand  .swiper-button-next:hover,
+ .brand  .swiper-button-prev:hover {
+   opacity: 1;
+ }
+
+/***  End Flash Sale and brand swiper ***/
+
+.section-title span{
+    display: inline-block;
+    height: 12px;;
+    width: 30px;
+    position: relative;
+    bottom:3px;
+    border-radius: 15px;
+    background: #FFCF17;
+    margin-right: 8px
+
+}
